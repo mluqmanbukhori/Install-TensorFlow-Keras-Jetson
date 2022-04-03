@@ -1,0 +1,50 @@
+Epoch 1/20
+68/68 [==============================] - 68s 997ms/step - loss: 0.1091 - accuracy: 0.9539 - val_loss: 0.0230 - val_accuracy: 0.9928
+Epoch 2/20
+68/68 [==============================] - 46s 677ms/step - loss: 0.0358 - accuracy: 0.9862 - val_loss: 0.0169 - val_accuracy: 0.9928
+Epoch 3/20
+68/68 [==============================] - 45s 657ms/step - loss: 0.0161 - accuracy: 0.9926 - val_loss: 0.0162 - val_accuracy: 0.9928
+Epoch 4/20
+68/68 [==============================] - 45s 655ms/step - loss: 0.0101 - accuracy: 0.9991 - val_loss: 0.0141 - val_accuracy: 0.9928
+Epoch 5/20
+68/68 [==============================] - 45s 658ms/step - loss: 0.0218 - accuracy: 0.9926 - val_loss: 0.0187 - val_accuracy: 0.9964
+Epoch 6/20
+68/68 [==============================] - 45s 656ms/step - loss: 0.0141 - accuracy: 0.9945 - val_loss: 0.0179 - val_accuracy: 0.9964
+Epoch 7/20
+68/68 [==============================] - 45s 656ms/step - loss: 0.0052 - accuracy: 0.9972 - val_loss: 0.0109 - val_accuracy: 0.9928
+Epoch 8/20
+68/68 [==============================] - 45s 655ms/step - loss: 0.0072 - accuracy: 0.9972 - val_loss: 0.0130 - val_accuracy: 0.9928
+Epoch 9/20
+68/68 [==============================] - 45s 658ms/step - loss: 0.0165 - accuracy: 0.9954 - val_loss: 0.0142 - val_accuracy: 0.9964
+Epoch 10/20
+68/68 [==============================] - 45s 657ms/step - loss: 0.0050 - accuracy: 0.9972 - val_loss: 0.0163 - val_accuracy: 0.9928
+Epoch 11/20
+68/68 [==============================] - 45s 658ms/step - loss: 0.0032 - accuracy: 0.9982 - val_loss: 0.0056 - val_accuracy: 0.9928
+Epoch 12/20
+68/68 [==============================] - 48s 702ms/step - loss: 0.0049 - accuracy: 0.9982 - val_loss: 0.0083 - val_accuracy: 0.9964
+Epoch 13/20
+68/68 [==============================] - 45s 659ms/step - loss: 0.0112 - accuracy: 0.9945 - val_loss: 0.0116 - val_accuracy: 0.9928
+Epoch 14/20
+68/68 [==============================] - 45s 658ms/step - loss: 0.0011 - accuracy: 1.0000 - val_loss: 0.0142 - val_accuracy: 0.9928
+Epoch 15/20
+68/68 [==============================] - 45s 657ms/step - loss: 6.1965e-04 - accuracy: 1.0000 - val_loss: 0.0151 - val_accuracy: 0.9928
+Epoch 16/20
+68/68 [==============================] - 45s 655ms/step - loss: 0.0025 - accuracy: 0.9991 - val_loss: 0.0082 - val_accuracy: 0.9964
+Epoch 17/20
+68/68 [==============================] - 45s 655ms/step - loss: 0.0051 - accuracy: 0.9972 - val_loss: 0.0056 - val_accuracy: 0.9964
+Epoch 18/20
+68/68 [==============================] - 45s 657ms/step - loss: 0.0153 - accuracy: 0.9954 - val_loss: 0.0086 - val_accuracy: 0.9964
+Epoch 19/20
+68/68 [==============================] - 45s 657ms/step - loss: 0.0042 - accuracy: 0.9991 - val_loss: 0.0055 - val_accuracy: 0.9964
+Epoch 20/20
+68/68 [==============================] - 45s 657ms/step - loss: 0.0020 - accuracy: 0.9991 - val_loss: 0.0032 - val_accuracy: 1.0000
+[INFO] evaluating network...
+2022-04-03 07:51:14.405679: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 166182912 exceeds 10% of free system memory.
+              precision    recall  f1-score   support
+
+   with_mask       1.00      1.00      1.00       125
+without_mask       1.00      1.00      1.00       151
+
+ avg / total       1.00      1.00      1.00       276
+
+[INFO] saving mask detector model...
