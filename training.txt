@@ -1,3 +1,5 @@
+[INFO] compiling model...
+[INFO] training head...
 Epoch 1/20
 68/68 [==============================] - 68s 997ms/step - loss: 0.1091 - accuracy: 0.9539 - val_loss: 0.0230 - val_accuracy: 0.9928
 Epoch 2/20
@@ -39,7 +41,6 @@ Epoch 19/20
 Epoch 20/20
 68/68 [==============================] - 45s 657ms/step - loss: 0.0020 - accuracy: 0.9991 - val_loss: 0.0032 - val_accuracy: 1.0000
 [INFO] evaluating network...
-2022-04-03 07:51:14.405679: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 166182912 exceeds 10% of free system memory.
               precision    recall  f1-score   support
 
    with_mask       1.00      1.00      1.00       125
